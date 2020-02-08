@@ -1,2 +1,3 @@
-# dealAllPicture
-python处理图片，包括图片平移、图片旋转、图片缩放、图片翻转、透视变换。
+
+## 使用缩放、翻转、旋转把一张图片变成多张图片。
+## Use scale,flip,rotation to turn one picture into multiple pictures.
