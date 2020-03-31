@@ -120,18 +120,70 @@ def pic_rotation():
                 # Rotated180Degrees = rotation(img, 180)
                 # cv2.imwrite(dir + '/' + name + '_Rotated180Degrees.' + filetype, Rotated180Degrees)  # 保存
 
-                RotatedNeg15Degrees = rotation(img, -15)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg15Degrees.' + filetype, RotatedNeg15Degrees)  # 保存
-                RotatedNeg30Degrees = rotation(img, -30)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg30Degrees.' + filetype, RotatedNeg30Degrees)  # 保存
-                RotatedNeg45Degrees = rotation(img, -45)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg45Degrees.' + filetype, RotatedNeg45Degrees)  # 保存
-                RotatedNeg60Degrees = rotation(img, -60)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg60Degrees.' + filetype, RotatedNeg60Degrees)  # 保存
-                RotatedNeg75Degrees = rotation(img, -75)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg75Degrees.' + filetype, RotatedNeg75Degrees)  # 保存
-                RotatedNeg90Degrees = rotation(img, -90)
-                cv2.imwrite(dir + '/' + name + '_RotatedNeg90Degrees.' + filetype, RotatedNeg90Degrees)  # 保存
+                Rotated105Degrees = rotation(img, 105)
+                cv2.imwrite(dir + '/' + name + '_Rotated105Degrees.' + filetype, Rotated105Degrees)  # 保存
+
+                Rotated120Degrees = rotation(img, 120)
+                cv2.imwrite(dir + '/' + name + '_Rotated120Degrees.' + filetype, Rotated120Degrees)  # 保存
+
+                Rotated135Degrees = rotation(img, 135)
+                cv2.imwrite(dir + '/' + name + '_Rotated135Degrees.' + filetype, Rotated135Degrees)  # 保存
+
+                Rotated150Degrees = rotation(img, 150)
+                cv2.imwrite(dir + '/' + name + '_Rotated150Degrees.' + filetype, Rotated150Degrees)  # 保存
+
+                Rotated165Degrees = rotation(img, 165)
+                cv2.imwrite(dir + '/' + name + '_Rotated165Degrees.' + filetype, Rotated165Degrees)  # 保存
+
+                Rotated180Degrees = rotation(img, 180)
+                cv2.imwrite(dir + '/' + name + '_Rotated180Degrees.' + filetype, Rotated180Degrees)  # 保存
+
+                Rotated195Degrees = rotation(img, 195)
+                cv2.imwrite(dir + '/' + name + '_Rotated195Degrees.' + filetype, Rotated195Degrees)  # 保存
+
+                Rotated210Degrees = rotation(img, 210)
+                cv2.imwrite(dir + '/' + name + '_Rotated210Degrees.' + filetype, Rotated210Degrees)  # 保存
+
+                Rotated225Degrees = rotation(img, 225)
+                cv2.imwrite(dir + '/' + name + '_Rotated225Degrees.' + filetype, Rotated225Degrees)  # 保存
+
+                Rotated240Degrees = rotation(img, 240)
+                cv2.imwrite(dir + '/' + name + '_Rotated240Degrees.' + filetype, Rotated240Degrees)  # 保存
+
+                Rotated255Degrees = rotation(img, 255)
+                cv2.imwrite(dir + '/' + name + '_Rotated255Degrees.' + filetype, Rotated255Degrees)  # 保存
+
+                Rotated270Degrees = rotation(img, 270)
+                cv2.imwrite(dir + '/' + name + '_Rotated270Degrees.' + filetype, Rotated270Degrees)  # 保存
+
+                Rotated285Degrees = rotation(img, 285)
+                cv2.imwrite(dir + '/' + name + '_Rotated285Degrees.' + filetype, Rotated285Degrees)  # 保存
+
+                Rotated300Degrees = rotation(img, 300)
+                cv2.imwrite(dir + '/' + name + '_Rotated300Degrees.' + filetype, Rotated300Degrees)  # 保存
+
+                Rotated315Degrees = rotation(img, 315)
+                cv2.imwrite(dir + '/' + name + '_Rotated315Degrees.' + filetype, Rotated315Degrees)  # 保存
+
+                Rotated330Degrees = rotation(img, 330)
+                cv2.imwrite(dir + '/' + name + '_Rotated330Degrees.' + filetype, Rotated330Degrees)  # 保存
+
+                Rotated345Degrees = rotation(img, 345)
+                cv2.imwrite(dir + '/' + name + '_Rotated345Degrees.' + filetype, Rotated345Degrees)  # 保存
+
+
+                # RotatedNeg15Degrees = rotation(img, -15)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg15Degrees.' + filetype, RotatedNeg15Degrees)  # 保存
+                # RotatedNeg30Degrees = rotation(img, -30)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg30Degrees.' + filetype, RotatedNeg30Degrees)  # 保存
+                # RotatedNeg45Degrees = rotation(img, -45)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg45Degrees.' + filetype, RotatedNeg45Degrees)  # 保存
+                # RotatedNeg60Degrees = rotation(img, -60)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg60Degrees.' + filetype, RotatedNeg60Degrees)  # 保存
+                # RotatedNeg75Degrees = rotation(img, -75)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg75Degrees.' + filetype, RotatedNeg75Degrees)  # 保存
+                # RotatedNeg90Degrees = rotation(img, -90)
+                # cv2.imwrite(dir + '/' + name + '_RotatedNeg90Degrees.' + filetype, RotatedNeg90Degrees)  # 保存
 
         tkinter.messagebox.showinfo('提示', '旋转后的图片已经保存到了'+dir+'中!')
 
